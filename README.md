@@ -1,4 +1,4 @@
-# React Sentiment Analysis con Tensorflow
+# Sentiment Analysis con Tensorflow & React
 
 ## Vía repositorio
 
