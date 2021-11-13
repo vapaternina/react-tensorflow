@@ -4,7 +4,7 @@
 
 Ejecutar los siguientes comandos en orden:
 1. `git clone https://github.com/vapaternina/react-tensorflow.git`
-2. `docker build -t react-sentiment-analysis .`
+2. `docker build -t react-sentiment-analysis:dev .`
 3. `docker run -it --rm -v ${PWD}:/usr/src/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true react-sentiment-analysis:dev`
 4. Ir a http://localhost:3001
 
