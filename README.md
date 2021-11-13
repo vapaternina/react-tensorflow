@@ -1,7 +1,6 @@
 #react-tensorflow
 
-Si se descarga el repositorio con el Dockerfile:
-Crear la imagen con:
+Si se descarga el repositorio con el Dockerfile, crear la imagen con:
 `docker build -t react-sentiment-analysis .`
 
 Luego, correr la webapp desde el contenedor de Docker con:
