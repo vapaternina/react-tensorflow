@@ -10,7 +10,7 @@ Ejecutar los siguientes comandos en orden:
 
 ## Vía Docker Hub ( https://hub.docker.com/r/vapaternina/react-sentiment-analysis ):
 Ejecutar los siguientes comandos en orden:
-1. `docker pull vapaternina/react-sentiment-analysis`
+1. `docker pull vapaternina/react-sentiment-analysis:v1.0.0`
 2. `docker run -it --rm -v ${PWD}:/usr/src/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true vapaternina/react-sentiment-analysis:v1.0.0`
 3. Ir a http://localhost:3001
 
